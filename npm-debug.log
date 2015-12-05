@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   '-g' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.0
+4 verbose stack Error: Cannot find module 'github-url-from-git'
+4 verbose stack     at Function.Module._resolveFilename (module.js:338:15)
+4 verbose stack     at Function.Module._load (module.js:289:25)
+4 verbose stack     at Module.require (module.js:366:17)
+4 verbose stack     at require (module.js:385:17)
+4 verbose stack     at Object.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:2:22)
+4 verbose stack     at Module._compile (module.js:425:26)
+4 verbose stack     at Object.Module._extensions..js (module.js:432:10)
+4 verbose stack     at Module.load (module.js:356:32)
+4 verbose stack     at Function.Module._load (module.js:313:12)
+4 verbose stack     at Module.require (module.js:366:17)
+4 verbose stack     at require (module.js:385:17)
+5 verbose cwd /Users/jessie/Dropbox/3-react
+6 error Darwin 13.4.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp" "-g"
+8 error node v5.1.0
+9 error npm  v3.3.12
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'github-url-from-git'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
